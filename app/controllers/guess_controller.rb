@@ -8,9 +8,10 @@ class GuessController < ApplicationController
     @word = Word.where(id: word_id)
     @revealing_word = Guess.check_letter_in_word(@word, @game.id)
     winner(@word, @revealing_word)
+    @counter == 1
   end
 
-  def winner(word,revealing_word)
+  def winner (word,revealing_word)
      if word[0].content == revealing_word
       flash[:notice] = 'Well Done, Try another game'
       redirect_to new_user_game_path

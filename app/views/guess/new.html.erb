@@ -11,27 +11,27 @@
 <%= link_to 'New Game', new_user_game_path %>
 </br>
 
-<% if @counter == 0 %>
-  <%= asset_path("body.png") %>
-<% elsif @counter == 1 %>
-  <%= asset_path("clouds.png") %>
-<% elsif @counter == 2 %>
-  <%= asset_path("gallow.png") %>
-<% elsif @counter == 3 %>
-  <%= asset_path("grass.png") %>
-<% elsif @counter == 4 %>
-  <%= asset_path("head.png") %>
-<% elsif @counter == 5 %>
-  <%= asset_path("l_arm.png") %>
-<% elsif @counter == 6 %>
-  <%= asset_path("l_leg.png") %>
-<% elsif @counter == 7 %>
-  <%= asset_path("r_arm.png") %>
-<% elsif @counter == 8 %>
-  <%= asset_path("r_leg.png") %>
-<% elsif @counter == 9 %>
-  <%= asset_path("rope.png") %>
-<% elsif @counter == 10 %>
-  <%= asset_path("rails.png") %>
+<% if @counter = 0 %>
+  <%= image_tag image_path("body.png") %>
+<% elsif @counter = 1 %>
+  <%= image_tag "clouds.png" %>
+<% elsif @counter = 2 %>
+  <%= image_tag "gallow.png" %>
+<% elsif @counter = 3 %>
+  <%= image_tag "grass.png" %>
+<% elsif @counter = 4 %>
+  <%= image_tag "head.png" %>
+<% elsif @counter = 5 %>
+  <%= image_tag "l_arm.png" %>
+<% elsif @counter = 6 %>
+  <%= image_tag "l_leg.png" %>
+<% elsif @counter = 7 %>
+  <%= image_tag "r_arm.png" %>
+<% elsif @counter = 8 %>
+  <%= image_tag "r_leg.png" %>
+<% elsif @counter = 9 %>
+  <%= image_tag "rope.png" %>
+<% elsif @counter = 10 %>
+  <%= image_tag "rails.png" %>
 <% end %>
 
