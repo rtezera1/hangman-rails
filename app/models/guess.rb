@@ -11,7 +11,6 @@ class Guess < ActiveRecord::Base
       array_of_letter << (obj.letter).downcase
     end
     return array_of_letter
-  binding.pry
   end
 
   def self.create_mystery_word(word)
