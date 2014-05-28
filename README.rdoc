@@ -1,4 +1,5 @@
 Hangman Game
+Go to: http://aqueous-reef-4791.herokuapp.com
 
 1. Sign in with: 
 username: r4eth@yahoo.com 
