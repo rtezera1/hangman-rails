@@ -1,3 +1,13 @@
 Hangman Game
 
+1. Sign in with: 
+username: r4eth@yahoo.com 
+password: 11111111
+2. Click 'Create New Game'
+
+3. Insert a letter from and try to guess the correct word 
+   before the hangman appears
+
+4. Enjoy
+
 
