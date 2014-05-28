@@ -8,7 +8,6 @@ class GuessController < ApplicationController
     @word = Word.where(id: word_id)
     @revealing_word = Guess.check_letter_in_word(@word, @game.id)
     winner(@word, @revealing_word)
-    @counter =1
   end
 
   def winner (word,revealing_word)
